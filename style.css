@@ -60,7 +60,7 @@ body{
 
 .feature-card {
     padding: 20px;
-    background-color: #CBB8CA;
+    background-color: #FEFADB;
     border-radius: 25px;
     box-shadow: 8px 8px 8px 5px rgba(0, 0, 0, 0.2);
     margin-bottom: 27px;
@@ -94,3 +94,54 @@ body{
     border-radius: 25px !important;
     margin-left: -10px ;
 }
+
+.p-tag-1{
+    font-weight: bold;
+    background-color: #DBC2CF;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-1 {
+    color: white !important;
+    font-size: 20px !important;
+    background-color: #8292AF !important;
+    
+}
+
+.button-1:hover {
+    background-color: #C7B7CA !important;
+    color: black !important;
+}
+
+input{
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2),
+                inset 10px 10px 15px #cdced1,
+                inset -10px -10px 15px white;
+
+     
+
+    
+}
+
+input:hover{
+    background-color: white;
+    transition:3.s;
+ }
+
+ .p-tag-2 {
+    font-size: 20px;
+ }

@@ -8,10 +8,89 @@
     background-image: url(Screenshot_1.png);
     background-position: center;
     background-size: cover;
-    justify-content: center;
     align-items: center;
     height: 100vh;
     display: flex;
     background-color: aliceblue;
     color: white;
+
+}
+
+.h2 {
+    font-size: 60px !important;
+    margin-left: 70px;
+    margin-top: 50px !important;
+}
+
+.p-tag {
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+.img {
+    margin-top: -380px !important;
+    margin-left: 30px;
+}
+body{
+    background-color: #FCEAD9 !important;
+}
+
+.button {
+    color: white !important;
+    font-size: 30px !important;
+    background-color: #8292AF !important;
+    margin-left: 70px !important;
+}
+
+.button:hover {
+    background-color: #C7B7CA !important;
+    color: black !important;
+}
+
+
+.product-feauter {
+    padding: 60px 0px; 
+}
+
+.product-feauter h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.feature-card {
+    padding: 20px;
+    background-color: #CBB8CA;
+    border-radius: 25px;
+    box-shadow: 8px 8px 8px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 27px;
+    transition: transform 0.5 ease;
+}
+
+.feature-card:hover{
+    transform: translate(-10px);
+}
+
+.feature-card img {
+    margin-bottom: 20px;
+
+    
+}
+
+.feature-card h5{
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+   
+}
+
+.feature-card p{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.image {
+    margin-top: -15px !important;
+    border-radius: 25px !important;
+    margin-left: -10px ;
 }

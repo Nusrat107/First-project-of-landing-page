@@ -145,3 +145,42 @@ input:hover{
  .p-tag-2 {
     font-size: 20px;
  }
+
+ .font{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.amm {
+    margin-left: 160px !important;
+}
+
+.input {
+    width: 80%;
+  
+    margin-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2),
+                inset 10px 10px 15px #cdced1,
+                inset -10px -10px 15px white;
+
+}
+
+.h1-tag {
+    text-align: center;
+}
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 1200px) {
+    .hero-section {
+       width: 100vh !important;
+    } 
+}

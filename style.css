@@ -93,6 +93,10 @@ body{
     margin-top: -15px !important;
     border-radius: 25px !important;
     margin-left: -10px ;
+    height: 230px;
+    width: 395px;
+  
+
 }
 
 .p-tag-1{
@@ -182,5 +186,6 @@ input:hover{
 @media screen and (max-width: 1200px) {
     .hero-section {
        width: 100vh !important;
+       
     } 
 }
